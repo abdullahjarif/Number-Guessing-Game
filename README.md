@@ -1,5 +1,8 @@
 # Number-Guessing-Game
 
-This game is implemneted by JavaScript. This game rule is:
-**Player-01** give a number. Number must should be between 1 to 10. Not any character or string.
-Then **Player-02** guess the number what the player-01 give within 5 times. If **player-02** don't guess the number in this times **plyaer-01** win this game otherwise **player-02** wins this game.
+✅ Implement this number guessing game using HTML, CSS and JavaScript. 
+➡️ This game rule is: 
+  ▫️**Player-01** give a number. 
+  ▫️The number must be between 1 and 10. Not any character or string. 
+  ▫️Then, **Player-02** must guess the number that **Player-01** gives, within five attempts. 
+  ▫️If **player-02** doesn't guess the number at this time, **player-01** wins this game; otherwise, **player-02** wins this game.
