@@ -1,6 +1,7 @@
 # Number-Guessing-Game
 
 ✅ Implement this number guessing game using HTML, CSS and JavaScript. 
+
 ➡️ This game rule is: 
 
   ▫️**Player-01** give a number. 
