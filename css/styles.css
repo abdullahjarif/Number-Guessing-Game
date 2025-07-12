@@ -1,0 +1,105 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+}
+
+body {
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background: linear-gradient(to right, #667eea, #7b4cab);
+    padding: 20px;
+    color: #fff;
+}
+
+.heading {
+    font-size: 2.5rem;
+    margin-bottom: 20px;
+    text-align: center;
+}
+
+.chanceTitle {
+    font-size: 1.2rem;
+    margin-bottom: 15px;
+    display: none;
+    color: #fffbe7;
+}
+
+input[type="text"] {
+    padding: 25px;
+    margin: 10px 0;
+    border: none;
+    border-radius: 8px;
+    width: 280px;
+    font-size: 25px;
+    font-weight: 700;
+    transition: 0.3s ease;
+    outline: none;
+}
+
+input[type="text"]:focus {
+    transform: scale(1.03);
+    box-shadow: 0 0 10px rgba(255,255,255,0.4);
+}
+
+button {
+    padding: 12px 20px;
+    margin: 8px 0 20px;
+    border: none;
+    border-radius: 8px;
+    font-size: 1rem;
+    cursor: pointer;
+    background-color: #fcd34d;
+    color: #333;
+    font-weight: bold;
+    transition: all 0.3s ease;
+}
+
+button:hover {
+    background-color: #fbbf24;
+    transform: translateY(-2px);
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.3);
+}
+
+.error {
+    color: #ff6b6b;
+    font-size: 25px;
+    text-align: center;
+    margin-top: 10px;
+    min-height: 1.4em;
+}
+
+.player2Input,
+.player2Btn {
+    display: none;
+}
+
+/* Responsive Design */
+@media (max-width: 500px) {
+    input[type="text"],
+    button {
+        width: 90%;
+    }
+
+    .heading {
+        font-size: 2rem;
+    }
+}
+@media (max-width: 400px) {
+    .heading {
+        font-size: 1.8rem;
+    }
+
+    input[type="text"] {
+        width: 85%;
+    }
+
+    button {
+        width: 90%;
+        padding: 10px;
+    }
+}
